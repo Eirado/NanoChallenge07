@@ -12,10 +12,8 @@ class ViewModel: ObservableObject{
     let codeAndName = "https://raw.githubusercontent.com/Banking-iOS/mock-interview/main/api/list.json"
     let codeAndQuotation = "https://raw.githubusercontent.com/Banking-iOS/mock-interview/main/api/live.json"
     
-    
     var coins: Coins?
     var currenciesName: CurrenciesName?
-    
     
     init(){
         fetch()
